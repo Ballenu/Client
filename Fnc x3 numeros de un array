@@ -2,7 +2,7 @@ var numbers = [2, 3, 5];
 
 function multiply(numbers) {
     var result = [];
-    for(var i = 1; i <= numbers.length; i++) {
+    for(var i = 0; i < numbers.length; i++) {
        result.push(numbers[i] * 3);
     }
     return result;
