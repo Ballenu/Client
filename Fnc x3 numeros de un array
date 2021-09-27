@@ -8,4 +8,4 @@ function multiply(numbers) {
     return result;
 }
 
-console.log(multiply(result));
+console.log(multiply(numbers));
