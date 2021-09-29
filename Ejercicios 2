@@ -33,3 +33,5 @@ function noEmpty(xs){
 }
 
 console.log(noEmpty([[1,2, 3], [], ["p", "q"], [], [[], []], [[1], [2], []]]));
+
+//Hacer una implementación recursiva de la función map
