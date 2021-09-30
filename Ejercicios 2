@@ -4,8 +4,15 @@ function map(xs, f) {
     ys.push(f(xs[i]));
     }
     return ys;
-   }
+}
 
+function filter(xs, f) {
+    var ys = [];
+    for (var i = 0; i < xs.length; i++) {
+        if(f(xs[i])) ys.push((xs[i]));
+    }
+    return ys;
+}
 
 /* EJERCICIO 1 */
 
@@ -33,11 +40,11 @@ console.log(map(palindromes, isPalindrome));
 
 pairs = [1, 3, 4, 5, 8];
 //recibe un array de numeros y devuelve los que son pares
-function isPair(number){
-    return number % 2 == 0;
+function isPair(xs){
+    return xs[z] % 2 == 0;
 }
     
-console.log(map(pairs, isPair));
+console.log(filter(pairs, isPair));
 
 /* EJERCICIO 4 */
 
@@ -45,14 +52,10 @@ ages = [8, 16, 17, 21, 55, 4, 60];
 
 //devuelve los mayores o iguales a 18;
 function adults(xs) {
-    var ys = [];
-    for(var z = 0; z < xs.length; z++){
-        if(xs >= 18) ys.push(xs[z]);
-    }
-    return ys;
+    return xs >= 18;
 }
 
-console.log(adults(ages))
+console.log(filter(ages, adults))
 
 //recibe un array de arrays y devuelve los que no están vacios, devuelve todo lo que no está vacio
 function noEmpty(xs){
