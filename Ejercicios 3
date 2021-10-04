@@ -1,0 +1,5 @@
+//Función que dados los elementos de un array los sume [1, 2, 3] => 6
+
+//Función que dados los elementos de un array devuelva el máximo [1, 2, 3] => 3
+
+//Función que reciba un array de números y que devuelva cuántos son pares [2, 3, 4] => 2
