@@ -4,7 +4,7 @@ numbers2 = [2, 4, 5];
 function reduce(xs, f){
     var y = 0;
     for(var i = 0; i < xs.length; i++){
-        y = f(xs[i], y);
+        y = f(xs[i]);
     }
     return y;
 }
@@ -24,3 +24,9 @@ function max(x, y){
 console.log(reduce(numbers2, max));
 
 //3. Función que reciba un array de números y que devuelva cuántos son pares [2, 3, 4] => 2
+
+function how_many_pairs(x, y){
+        if (x % 2 == 0) return y++;
+}
+
+console.log(reduce(numbers2, how_many_pairs));
