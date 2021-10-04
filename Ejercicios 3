@@ -1,4 +1,4 @@
-// 1 y 2 con una función conjunta
+// 1 y 2 con una función conjunta (reduce), reduce los elementos de un array a un valor
 
 //1. Función que dados los elementos de un array los sume [1, 2, 3] => 6
 
