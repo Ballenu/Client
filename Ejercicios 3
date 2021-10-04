@@ -4,21 +4,21 @@ numbers2 = [2, 4, 5];
 function reduce(xs, f){
     var y = 0;
     for(var i = 0; i < xs.length; i++){
-        y = f(xs[i]);
+        y = f(xs[i], y);
     }
     return y;
 }
 
 //1. Función que dados los elementos de un array los sume [1, 2, 3] => 6
-function sumatory(x){
+function sumatory(x, y){
     return y += x;
 }
 
 console.log(reduce(numbers2, sumatory));
 
 //2. Función que dados los elementos de un array devuelva el máximo [1, 2, 3] => 3
-function max(x){
-    if(y < xs[i]) return y = xs[i];
+function max(x, y){
+    if(y < x) return y = x;
 }
 
 console.log(reduce(numbers2, max));
