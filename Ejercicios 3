@@ -1,5 +1,7 @@
-//Función que dados los elementos de un array los sume [1, 2, 3] => 6
+// 1 y 2 con una función conjunta
 
-//Función que dados los elementos de un array devuelva el máximo [1, 2, 3] => 3
+//1. Función que dados los elementos de un array los sume [1, 2, 3] => 6
 
-//Función que reciba un array de números y que devuelva cuántos son pares [2, 3, 4] => 2
+//2. Función que dados los elementos de un array devuelva el máximo [1, 2, 3] => 3
+
+//3. Función que reciba un array de números y que devuelva cuántos son pares [2, 3, 4] => 2
